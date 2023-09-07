@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("Image/bg.jfif"),
+            image: AssetImage("Image/nature.jpg"),
             fit: BoxFit.cover,
           ),
         ),
@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
               Row(
                 children: [
                   CircleAvatar(
-                    radius: 50, backgroundImage: AssetImage("Image/tanvir.jpg"),
+                    radius: 50, backgroundImage: AssetImage("Image/me2.jpg"),
                   ),
                   SizedBox(
                     width: 20,
@@ -36,11 +36,11 @@ class Home extends StatelessWidget {
                     children: <Widget>[
                       Text(
                         "Md Tanvir Ahmmed",
-                        style: TextStyle(fontSize: 20.0, color: Colors.white, fontFamily: "Code",),
+                        style: TextStyle(fontSize: 20.0, color: Colors.black, fontFamily: "Code",),
                       ),
                       Text(
-                        "Flutter Developer",
-                        style: TextStyle(fontSize: 15.0, color: Colors.white),
+                        "Competative Programmer",
+                        style: TextStyle(fontSize: 15.0, color: Colors.black),
                       )
                     ],
                   )
@@ -60,14 +60,14 @@ class Home extends StatelessWidget {
                         Icon(
                           Icons.school,
                           size: 40,
-                          color: Colors.white,
+                          color: Colors.black,
                         ),
                         SizedBox(
                           width: 10,
                         ),
                         Text(
-                          "School, College & Universitiy",
-                          style: TextStyle(fontSize: 20, color: Colors.white),
+                          "University of Barishal",
+                          style: TextStyle(fontSize: 20, color: Colors.black),
                         ),
                       ],
                     ),
@@ -77,14 +77,14 @@ class Home extends StatelessWidget {
                         Icon(
                           Icons.computer_rounded,
                           size: 40,
-                          color: Colors.white,
+                          color: Colors.teal,
                         ),
                         SizedBox(
                           width: 10,
                         ),
                         Text(
-                          "Portfolio Applications",
-                          style: TextStyle(fontSize: 20, color: Colors.white),
+                          "Build Flutter Applications",
+                          style: TextStyle(fontSize: 20, color: Colors.black),
                         ),
                       ],
                     ),
@@ -94,14 +94,14 @@ class Home extends StatelessWidget {
                         Icon(
                           Icons.location_on,
                           size: 40,
-                          color: Colors.white,
+                          color: Colors.redAccent,
                         ),
                         SizedBox(
                           width: 10,
                         ),
                         Text(
                           "Barishal Sadar, Barishal",
-                          style: TextStyle(fontSize: 20, color: Colors.white),
+                          style: TextStyle(fontSize: 20, color: Colors.black),
                         ),
                       ],
                     ),
@@ -111,14 +111,14 @@ class Home extends StatelessWidget {
                         Icon(
                           Icons.email,
                           size: 40,
-                          color: Colors.white,
+                          color: Colors.blue,
                         ),
                         SizedBox(
                           width: 10,
                         ),
                         Text(
                           "tanvir.cse8.bu@gmail.com",
-                          style: TextStyle(fontSize: 20, color: Colors.white),
+                          style: TextStyle(fontSize: 20, color: Colors.black),
                         ),
                       ],
                     ),
@@ -128,14 +128,14 @@ class Home extends StatelessWidget {
                         Icon(
                           Icons.phone,
                           size: 40,
-                          color: Colors.white,
+                          color: Colors.blue,
                         ),
                         SizedBox(
                           width: 10,
                         ),
                         Text(
                           "+8801755901554",
-                          style: TextStyle(fontSize: 20, color: Colors.white),
+                          style: TextStyle(fontSize: 20, color: Colors.black),
                         ),
                       ],
                     ),
@@ -146,12 +146,12 @@ class Home extends StatelessWidget {
               SizedBox(height: 50,),
               Padding(
                 padding: EdgeInsets.all(8),
-                child: Text("My name is Tanvir. I'm a Flutter Devoloper. I'm in Barishal University. I want to became a softower Engineer in Google.", style: TextStyle(fontSize: 20, color: Colors.white),),
+                child: Text("My name is Tanvvir. I'm a Competative Programmer.", style: TextStyle(fontSize: 20, color: Colors.white70),),
               ),
               SizedBox(height: 100,),
               Padding(
                 padding: EdgeInsets.only(right: 25),
-                child: Text("Created by Tanvir", style: TextStyle(color: Colors.white),)
+                child: Text("Coppyright of Tanvir", style: TextStyle(color: Colors.white),)
               ),
             ],
           ),
